@@ -1,0 +1,120 @@
+body
+{
+/*	background:-webkit-gradient(linear,left top,left bottom,from(#a9a9a9),color-stop(#dcdcdc,0.5),to(#a9a9a9));
+	background:-webkit-linear-gradient(top, #a9a9a9, #dcdcdc, #a9a9a9);
+	background:   -moz-linear-gradient(top, #a9a9a9, #dcdcdc, #a9a9a9);
+	background:     -o-linear-gradient(top, #a9a9a9, #dcdcdc, #a9a9a9);
+	background:        linear-gradient(top, #a9a9a9, #dcdcdc, #a9a9a9);
+	margin:0;
+    padding:0;*/
+	background: rgb(255,255,255)/*rgb(2,78,213)*/ url('../images/perspective.jpg');/*('../images/blue/bg_page.jpg') #2d2d2d */;
+	background-repeat:no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+
+.ombre
+{
+	width:1200px;
+	margin:20px auto;
+	box-shadow:2px 2px 20px 0px #000;
+	border-radius:10px;
+}
+
+#header
+{
+	width:1200px;
+	height:350px;
+}
+
+ .logo{
+	margin:20px 0px 0px 5px;
+	position:absolute;
+	z-index:10;
+}
+ .logo img{
+	width:120px;
+	height:100px;	
+}
+
+.banniere
+{
+	width:1200px;
+	height:300px;
+	border-radius:10px 10px 10px 10px;
+	border:solid #083CD8 5px ;
+	
+}
+
+.banniere img
+{
+	width:1200px;
+	height:300px;
+	border-radius:5px 5px 5px 5px;
+}
+
+.menu_nav_haut
+{
+	border-radius:10px 10px 0px 0px;
+	border:solid #083CD8 5px ;
+	margin-top:20px;
+	display:inline-block;
+	width:1200px;
+	height:50px;
+    background-color: rgb(39, 162, 220);
+}
+
+#content{
+	border-radius:0px 0px 10px 10px;
+	border:solid #083CD8 5px ;
+	width:1200px;
+	background:#8E00CB;/*#E67B00; */  /*#dcdcdc; couleur du block central*/
+
+}
+
+.container
+{
+	width:1100px;
+	padding:50px;
+	background:-webkit-gradient(linear,left top,left bottom,from(rgba(45,45,45,0.05)),color-stop(rgba(77,77,77,0.05),0.5),to(rgba(45,45,45,0.05)));
+	background:-webkit-linear-gradient(top, rgb(39, 162, 220), rgb(24, 97, 201), rgb(11, 59, 189));
+	background:   -moz-linear-gradient(top, rgb(39, 162, 220), rgb(24, 97, 201), rgb(11, 59, 189));
+	background:     -o-linear-gradient(top, rgb(39, 162, 220), rgb(24, 97, 201), rgb(11, 59, 189));
+	background:        linear-gradient(top, rgb(39, 162, 220), rgb(24, 97, 201), rgb(11, 59, 189));
+	overflow:auto;
+}
+
+#footer
+{
+	margin-top:15px;
+	border:solid #083CD8 5px ;
+	width:1200px;
+	height:50px;
+	background:rgb(2, 41, 146);
+	border-radius:10px 10px 10px 10px;
+}
+
+.divfooter
+{
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1280px){
+/*.ombre
+{
+	width:800px;
+	margin:20px auto;
+	box-shadow:2px 2px 20px 0px #000;
+	border-radius:10px;
+}*/
+}
